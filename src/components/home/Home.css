@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+}
+
+/* first container */
+
+.homecontainersub {
+  margin-top: 40px;
+  display: flex;
+  gap: 100px;
+}
+
+.modelimg1 {
+  height: 550px;
+  width: 400px;
+  margin-left: -30px;
+}
+
+.homecontainersub-left {
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 660px;
+}
+
+.heading1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.textcontainer {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 173.5%;
+  color: #000000;
+}
+
+.colorchange {
+  color: #892cdc;
+}
+
+.learnmorebtn {
+  background-color: #892cdc;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.headingcontainer,
+.textcontainer,
+.btncontainer {
+  margin-left: 30px;
+}
+
+.headingcontainer {
+  margin-top: 50px;
+}
+
+/*  second container*/
+
+.homecontainer2 {
+  width: 100%;
+  height: 800px;
+}
+
+.modelimg2 {
+  height: 300px;
+  width: 200px;
+}
+
+.modelimg2 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.secondcontainer {
+  display: flex;
+  gap: 200px;
+}
+
+.textheading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.textclass {
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 173.5%;
+  text-align: center;
+  color: #000000;
+  margin-top: 90px;
+  width: 70%;
+  text-align: center;
+  margin-left: 95px;
+}
+
+.box2 {
+  height: 400px;
+  background: #e7d4ff;
+  width: 50%;
+}
+
+.box1 {
+  height: 400px;
+  background: #e7d4ff;
+  width: 50%;
+  margin: 0px 0px 0px auto;
+  text-align: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 173.5%;
+  text-align: center;
+  color: #000000;
+}
+
+.box1 .center {
+  display: flex;
+  justify-content: center;
+}
+
+/*  Third container*/
+
+.founderheading {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  gap: 1000px;
+}
+
+.horizontalscroll1 {
+
+  height: 50px;
+  width: 25px;
+  position: relative;
+  top: 320px;
+  right: 100px;
+  border-radius: 8px 0px 0px 8px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.horizontalscroll2 {
+
+  height: 50px;
+  width: 25px;
+  position: relative;
+  top: 320px;
+  left: 100px;
+  border-radius: 8px 0px 0px 8px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.founderlist {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.textlinkdiv {
+  margin-top: 15px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 173.5%;
+  color: #892cdc;
+}
+.textlink {
+  text-decoration: none;
+}
+
+.founder1,
+.founder2,
+.founder3 {
+  height: 407px;
+  width: 334px;
+  background: rgb(255, 255, 255);
+  margin-top: 100px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2 ease-in-out;
+}
+
+.founder1:hover,
+.founder2:hover,
+.founder3:hover {
+  transform: scale(1.03);
+}
+
+.subfounder1,
+.subfounder2,
+.subfounder3 {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #892cdc;
+  position: relative;
+  margin-left: 90px;
+  top: -50px;
+}
+
+.founderimg {
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  left: 6%;
+  top: 18px;
+}
+
+.Foundertext {
+  text-align: center;
+}
+
+.foundercenterspace {
+  margin: auto;
+  margin-top: -30px;
+  width: 70%;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 173.5%;
+  text-align: center;
+  color: #000000;
+}
+
+.founderheading {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #892cdc;
+}
+
+.btnspace {
+  margin-top: 10px;
+}
+
+.awardscontainermain {
+  display: flex;
+  justify-content: space-around;
+}
+
+.awardscontainer {
+  height: 400px;
+  width: 215px;
+  margin-left: 30px;
+}
+
+.awardsheading {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  color: #892cdc;
+}
+
+.awardstextheading {
+  margin-bottom: 10px;
+}
+
+.awardsimg1 {
+  margin-left: 5px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.awardsimg2 {
+  margin-top: 40px;
+}
+
+.awardsimg3 {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.awardsimg4 {
+  height: 90px;
+  margin-left: 10px;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+.awardscenterspace {
+  margin: auto;
+  width: 100%;
+  text-align: start;
+}
+
+.founderheading {
+  margin-bottom: 10px;
+}
+
+.btnspace {
+  margin-top: 10px;
+}

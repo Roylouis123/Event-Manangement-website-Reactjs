@@ -1,0 +1,12 @@
+body {
+  background-color: antiquewhite;
+}
+
+.workinprogress {
+  height: 400px;
+  margin-left: 35%;
+}
+
+.workinprogress-text {
+  text-align: center;
+}

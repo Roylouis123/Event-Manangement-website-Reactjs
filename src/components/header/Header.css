@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@200&display=swap");
+
+* {
+  margin: 0;
+}
+
+/*  Header  */
+
+.headercontainer {
+  width: 100%;
+  background: linear-gradient(90.08deg, #8800ff -43.15%, #ffffff 42.77%);
+  position: fixed;
+  z-index: 9999;
+  height: 80px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.logo {
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 70px;
+  font-family: "Gill Sans MT Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32.8615px;
+  line-height: 10%;
+  letter-spacing: 0.23em;
+  color: #470086;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.list {
+  display: flex;
+  gap: 80px;
+  margin-right: 25px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sublist {
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.sublist:hover {
+  color: #8700ff;
+}
+
+.sublistoffer:hover {
+  color: #000000;
+}
+
+.sublistoffer {
+  width: -20px;
+  text-decoration: none;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  background: #892cdc;
+  border-radius: 26px;
+}
+
+.logodesign1 {
+  position: absolute;
+  width: 10.94px;
+  height: 10.94px;
+  left: 66.81px;
+  top: 27px;
+  border-radius: 50%;
+  background: #470086;
+}
+
+.logodesign2 {
+  position: absolute;
+  width: 10.94px;
+  height: 10.94px;
+  left: 59px;
+  top: 41.06px;
+  border-radius: 50%;
+  background: #470086;
+}
+
+.logodesign3 {
+  position: absolute;
+  width: 9.38px;
+  height: 9.38px;
+  left: 74.62px;
+  top: 41.84px;
+  background: #470086;
+}
