@@ -1,5 +1,8 @@
-# Event-Manangement-website-Reactjs# Roylouis123/Project-1-React-Js-IMDB-Movie-Website-
- Premium IMDB movie Website
+# Event-Manangement-website-Reactjs# 
+
+
+<h1>npm install</h1>
+
 <h1>npm start</h1>
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
